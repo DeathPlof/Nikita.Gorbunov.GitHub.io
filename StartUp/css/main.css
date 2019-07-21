@@ -1,0 +1,299 @@
+/*header*/
+/*main*/
+	/*services*/
+	/*about us*/
+	/*works*/
+	/*touch*/
+	/*blog*/
+/*footer*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Montserrat", sans-serif;
+	color: #555;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, ul {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+*,
+*:after,
+*:before {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+
+	width: 100%;
+	max-width: 1200px;
+}
+
+.button_hover {
+	cursor: pointer;
+}
+
+
+/*header*/
+
+
+header {
+	background: url(../img/Header.jpg) no-repeat center top / cover;
+
+	height: 100vh;
+}
+
+.header {
+	padding-top: 36px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	font-weight: 700;
+	font-size: 24px;
+	color: #fff;	
+}
+
+nav {
+	width: 50%;
+}
+
+ul {
+	height: 29px;
+	line-height: 29px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	display: block;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.intro {
+	text-align: center;
+}
+
+.intro h1 {
+	margin-top: 340px;
+
+	font-size: 48px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+.intro p {
+	margin-top: 18px;
+
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 22px;
+	color: #fff;
+}
+
+.start {
+	background: none;
+	border: 2px solid #fff;
+	
+	margin-top: 50px;
+	padding: 18px 34px;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+
+
+/*main*/
+
+	/*services*/
+
+.services_title {
+	padding-top: 50px;
+	text-align: center;
+}
+
+hr {
+	margin-top: 20px;
+	width: 50px;
+}
+
+.services_title p {
+	margin-top: 20px;
+}
+
+.services_text {
+	margin: 30px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.services_text * {
+	margin-top: 20px;
+
+}
+
+.services {
+	margin-bottom: 50px;
+}
+
+	/*about us*/
+
+section:nth-child(2) {
+	background-color: #eee; 
+}
+
+.about_title {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.about_title p {
+	margin-top: 20px;
+}
+
+.about_text {
+	margin-top: 50px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.about_text p {
+	width: 48%;
+}
+
+.about_img {
+	margin-top: 50px;
+
+	display: flex;
+	justify-content: space-between;
+
+	text-align: center;
+}
+
+span {
+	text-decoration: uppercase;
+	font-weight: 700;
+}
+
+.about_item p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+	/*works*/
+
+.works_title {
+	padding: 50px;
+	text-align: center;
+}
+
+.works_flex {
+	margin: 30px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.works {
+	margin-bottom: 106px;
+}
+
+
+	/*touch*/
+
+section:nth-child(4) {
+	background: url(../img/touch.jpg) no-repeat center top / cover;
+
+	height: 368px;
+	padding-top: 100px;
+
+	text-align: center;
+	color: #fff;
+}
+
+.touch {
+	line-height: 1.4;
+	font-family: "Roboto Slab", sans-serif; 
+}
+
+.button_touch {
+	background: none;
+	border: 2px solid #fff;
+	
+	margin-top: 50px;
+	padding: 18px 34px;
+
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+	/*blog*/
+
+.blog {
+	margin-bottom: 50px;
+}
+
+.blog_title {
+	text-align: center;
+	padding: 50px 0 80px;
+
+}
+
+.blog_title p {
+	margin-top: 20px;
+}
+
+.blog_post {
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 30px;
+}
+
+.blog_text {
+	width: 55%;
+}
+
+.blog_text p {
+	margin-top: 20px;
+}
+
+
+/*footer*/
+
+footer {
+	background-color: #c0301c; 
+	padding: 30px;
+
+	color: #fff;
+	text-align: center;
+}
